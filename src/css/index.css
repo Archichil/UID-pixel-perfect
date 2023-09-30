@@ -1,19 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     height: 100vh;
+    width: 100%;
+    background-image: url("../img/about_agency_bg.jpg");
+    background-size: contain;
     display: flex;
-    background: url("../img/about_agency_bg.jpg") 50% 50% no-repeat;
-    background-size: cover;
-
-
-
+    flex-direction: column;
 }
-header .menu{
+
+nav{
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    height: 116px;
+}
+
+nav .social-icons{
+    display: flex;
+}
+
+/*nav .links{*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*}*/
+
+nav .nav-menu li{
+    margin-left: 47px;
+}
+
+nav .nav-menu{
+    display: flex;
+    margin-right: 20px;
+}
+
+nav .social-icons{
+    display: flex;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+}
+
+.logo-text{
+    z-index: 3;
+    display: flex;
+    color: white;
+    letter-spacing: normal;
+    font-size: 31px;
+    font-family: OpenSans-Bold, serif;
+}
+
+ul{
+    list-style: none;
+}
+
+div .blue-square{
+    /*position: absolute;*/
+    width: 67px;
+    height: 67px;
+    background-color: #11749e;
+    z-index: 2;
+}
+
+div .white-square{
+    /*position: absolute;*/
+    width: 67px;
+    height: 67px;
+    background-color: white;
+    z-index: 1;
+}
+
+p .logo-text{
+    color: white;
+}
+
+header .nav-menu{
     display: flex;
     list-style-type: none;
     margin-right: 100px;
-
+    color: white;
+    font-family: OpenSans, serif;     /* TODO шрифты под вопросом!!!! */
 }
 
 i{
     color: white;
+}
+
+.container{
+    width: 1600px;
+    max-width: 1600px;
+}
+
+
+
+body{
+    width: 1600px;
+    max-width: 1600px;
+}
+
+h1{
+    color: white;
+    font-family: Gotham-Bold, serif;
+    font-size: 153px;
+    text-transform: uppercase;
+    text-align: center;
+    /*font-weight: 700;*/
+}
+
+p{
+    color: #11749E;         /*TODO ВОЗМОЖНО ПРИДЁТСЯ ОБЕРНУТЬ H1 И P В КАКОЙ-ТО КЛАСС*/
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 25px;
+    font-family: Gotham-Medium, serif;
 }
