@@ -1,0 +1,19 @@
+header{
+    height: 100vh;
+    display: flex;
+    background: url("../img/about_agency_bg.jpg") 50% 50% no-repeat;
+    background-size: cover;
+
+
+
+}
+header .menu{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+
+}
+
+i{
+    color: white;
+}
