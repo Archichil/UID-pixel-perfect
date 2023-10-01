@@ -198,7 +198,7 @@ h1{
     align-items: center;
 }
 
-.awesome-agency{
+.about-agency{
     height: 738px;
     background-color: #11749E;
 }
@@ -233,7 +233,7 @@ span#W{
     color: white;
 
 }
-.awesome-agency{
+.about-agency{
     display: flex;
     /*justify-content: center;*/
     align-items: center;
