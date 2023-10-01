@@ -12,22 +12,41 @@ header{
     flex-direction: column;
 }
 
+.header-text{
+    color: #11749E;
+}
+
 nav{
     width: 100%;
     border-bottom: 1px solid #ffffff;
-    display: flex;
-    align-items: center;
     height: 116px;
+    display: flex; /* Включить Flexbox */
+    justify-content: space-between; /* Равномерно распределить элементы по горизонтали */
+    align-items: center; /* Выровнять элементы по вертикали по центру */
+    padding: 10px 0; /* Отступы для выравнивания */
+}
+
+.nav-menu,
+.social-icons {
+    list-style: none; /* Убрать маркеры списка */
+    margin: 0; /* Убрать внешний отступ */
+    padding: 0; /* Убрать внутренний отступ */
+}
+
+.nav-menu li,
+.social-icons li {
+    display: inline; /* Сделать элементы списка инлайновыми (в строку) */
+    margin-right: 20px; /* Расстояние между элементами списка */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Выровнять элементы по вертикали по центру */
 }
 
 nav .social-icons{
     display: flex;
 }
-
-/*nav .links{*/
-/*    position: absolute;*/
-/*    right: 10px;*/
-/*}*/
 
 nav .nav-menu li{
     margin-left: 47px;
@@ -76,8 +95,21 @@ div .white-square{
     z-index: 1;
 }
 
+.main-container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 p .logo-text{
     color: white;
+}
+
+p .header-content{
+    color: #11749E;
 }
 
 header .nav-menu{
@@ -114,10 +146,53 @@ h1{
 }
 
 p{
-    color: #11749E;         /*TODO ВОЗМОЖНО ПРИДЁТСЯ ОБЕРНУТЬ H1 И P В КАКОЙ-ТО КЛАСС*/
+    /*TODO ВОЗМОЖНО ПРИДЁТСЯ ОБЕРНУТЬ H1 И P В КАКОЙ-ТО КЛАСС*/
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 20px;
     font-size: 25px;
     font-family: Gotham-Medium, serif;
 }
+
+.fa-angle-down{
+    align-items: center;
+}
+
+.awesome-agency{
+    height: 738px;
+    background-color: #11749E;
+}
+
+.footer{
+    font-family: Roboto, serif;
+    font-size: 13pt;
+    letter-spacing: normal;
+    text-transform: none;
+
+}
+footer{
+    height: 114px;
+    width: 100%;
+    align-content: center;
+    background-color: #222222;
+}
+h2#awesome-agency{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-family: Gotham-Bold, serif;
+    font-size: 37.55pt;
+    font-weight: 400;
+}
+
+span#W{
+    font-family: Roboto-BoldCondensed, serif;
+    font-size: 247.18pt;
+    opacity: 18%;
+    color: white;
+
+}
+/*.awesome-agency{*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
