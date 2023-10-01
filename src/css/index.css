@@ -4,65 +4,113 @@
 }
 
 header{
-    height: 100vh;
+    height: 881px;
     width: 100%;
     background-image: url("../img/about_agency_bg.jpg");
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
+    /*background-size: contain;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+
+.header-content{
+    /*display: flex;*/
+    position: relative;
+    top: 240px;
+}
+
+h1{
+    letter-spacing: -7px;
 }
 
 .header-text{
+    position: relative;
+    top: -10px;
+    left: 12px;
     color: #11749E;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: Gotham-Medium, serif;
+    /*letter-spacing: -5px;*/
 }
 
 nav{
     width: 100%;
     border-bottom: 1px solid #ffffff;
     height: 116px;
-    display: flex; /* Включить Flexbox */
-    justify-content: space-between; /* Равномерно распределить элементы по горизонтали */
-    align-items: center; /* Выровнять элементы по вертикали по центру */
-    padding: 10px 0; /* Отступы для выравнивания */
+    /*display: flex; !* Включить Flexbox *!*/
+    /*justify-content: space-between; !* Равномерно распределить элементы по горизонтали *!*/
+    /*align-items: center; !* Выровнять элементы по вертикали по центру *!*/
+    /*padding: 10px 0; !* Отступы для выравнивания *!*/
+}
+.scroller{
+    position: relative;
+    align-content: center;
+    text-align: center;
+    font-size: 14px;
+    top: 105px;
 }
 
-.nav-menu,
-.social-icons {
-    list-style: none; /* Убрать маркеры списка */
-    margin: 0; /* Убрать внешний отступ */
-    padding: 0; /* Убрать внутренний отступ */
+.scroller-text{
+    position: relative;
+    color: white;
 }
 
-.nav-menu li,
-.social-icons li {
-    display: inline; /* Сделать элементы списка инлайновыми (в строку) */
-    margin-right: 20px; /* Расстояние между элементами списка */
+.arrow{
+    position: relative;
+    font-size: 20pt;
+    top: 37px;
 }
+.circle{
+    position: fixed;
+    width: 80px;
+    height: 80px;;
+    /*background-color: #11749E;*/
+    border-radius: 50%;
+    border: white 1px solid;
+}
+
+/*.nav-menu,*/
+/*.social-icons {*/
+/*    list-style: none; !* Убрать маркеры списка *!*/
+/*    margin: 0; !* Убрать внешний отступ *!*/
+/*    padding: 0; !* Убрать внутренний отступ *!*/
+/*}*/
+
+/*.nav-menu li,*/
+/*.social-icons li {*/
+/*    display: inline; !* Сделать элементы списка инлайновыми (в строку) *!*/
+/*    margin-right: 20px; !* Расстояние между элементами списка *!*/
+/*}*/
 
 .logo {
     display: flex;
-    align-items: center; /* Выровнять элементы по вертикали по центру */
+    /*align-items: center; !* Выровнять элементы по вертикали по центру *!*/
 }
 
 nav .social-icons{
     display: flex;
+
 }
 
 nav .nav-menu li{
     margin-left: 47px;
 }
 
-nav .nav-menu{
-    display: flex;
-    margin-right: 20px;
-}
+/*nav .nav-menu{*/
+/*    display: flex;*/
+/*    margin-right: 20px;*/
+/*}*/
 
-nav .social-icons{
-    display: flex;
-}
+/*nav .social-icons{*/
+/*    display: flex;*/
+/*}*/
 
 .logo{
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -75,9 +123,9 @@ nav .social-icons{
     font-family: OpenSans-Bold, serif;
 }
 
-ul{
-    list-style: none;
-}
+/*ul{*/
+/*    list-style: none;*/
+/*}*/
 
 div .blue-square{
     /*position: absolute;*/
@@ -104,18 +152,18 @@ div .white-square{
     padding-right: 15px;
 }
 
-p .logo-text{
-    color: white;
-}
+/*p .logo-text{*/
+/*    color: white;*/
+/*}*/
 
-p .header-content{
-    color: #11749E;
-}
+/*p .header-content{*/
+/*    color: #11749E;*/
+/*}*/
 
 header .nav-menu{
     display: flex;
     list-style-type: none;
-    margin-right: 100px;
+    /*margin-right: 100px;*/
     color: white;
     font-family: OpenSans, serif;     /* TODO шрифты под вопросом!!!! */
 }
@@ -145,14 +193,6 @@ h1{
     /*font-weight: 700;*/
 }
 
-p{
-    /*TODO ВОЗМОЖНО ПРИДЁТСЯ ОБЕРНУТЬ H1 И P В КАКОЙ-ТО КЛАСС*/
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    font-size: 25px;
-    font-family: Gotham-Medium, serif;
-}
 
 .fa-angle-down{
     align-items: center;
@@ -186,13 +226,19 @@ h2#awesome-agency{
 }
 
 span#W{
+
     font-family: Roboto-BoldCondensed, serif;
     font-size: 247.18pt;
     opacity: 18%;
     color: white;
 
 }
-/*.awesome-agency{*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+.awesome-agency{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.footer{
+    color: white;
+}
