@@ -16,7 +16,7 @@
     justify-content: flex-end;
 }
 
-.block-center {
+.block-header-center {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@
     word-spacing: 1px;
 }
 
-.block-front-content {
+.block-front-description {
     font-family: 'Gotham-Book', serif;
     font-size: 30px;
     margin-top: auto;
@@ -77,4 +77,64 @@
 .block-img{
     width: 100%;
     height: 280px;
+}
+
+.block-text-unit,
+.block-text-unit-3{
+    margin-top: 36px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-text-unit{
+    width: 265px;
+}
+.block-text-unit-3{
+    width: 275px;
+}
+
+.block-text-title{
+    font-family: 'Gotham-Medium', serif;
+    font-size: 18px;
+    color: rgb(17, 116, 158);
+    white-space: pre;
+}
+.block-title-indent-1{
+    margin-left: 3px;
+}
+.block-title-indent-2{
+    margin-left: 5px;
+}
+.block-title-indent-3{
+    margin-left: 9px;
+}
+.block-title-indent-4{
+    margin-left: 0;
+}
+
+.block-text-content{
+    font-family: 'Gotham-Book', serif;
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+
+.block-multiline-text {
+    margin-top: 16px;
+}
+.block-multiline-text p {
+    line-height: 1.6;
+}
+
+.block-content-indent-1{
+    margin-left: -4px;
+}
+.block-content-indent-2{
+    margin-left: -3px;
+}
+.block-content-indent-3{
+    margin-left: 7px;
+}
+.block-content-indent-4{
+    margin-left: -7px;
 }
