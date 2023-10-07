@@ -26,12 +26,12 @@
 }
 
 .news-text-1 {
-    margin-left: 217px;
+    margin-left: 213px;
     margin-top: 108px;
 }
 
 .news-text-2 {
-    margin-left: 82px;
+    margin-left: 78px;
     margin-top: 104px;
 }
 
@@ -52,13 +52,14 @@
 .news-text-date {
     font-family: 'Gotham-Book', serif;
     font-size: 13px;
+    margin-left: 4px;
 }
 
 .news-text-title {
     font-family: 'Gotham-Medium', serif;
     font-size: 25px;
     margin-top: 11px;
-    margin-left: -2px;
+    margin-left: 2px;
 }
 
 .news-text-content {
@@ -67,7 +68,6 @@
 }
 
 .news-multiline-text {
-    margin-left: -4px;
     margin-top: 31px;
 }
 .news-multiline-text p {
