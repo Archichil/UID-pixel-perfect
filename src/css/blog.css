@@ -1,7 +1,7 @@
 .blog-area {
     position: relative;
     background: rgb(255, 255, 255);
-    height: 1017px;
+    height: 930px;
 }
 
 .block-header {
@@ -40,7 +40,7 @@
     font-family: 'Gotham-Medium', serif;
     font-size: 37px;
     color: rgb(34, 34, 34);
-    top: 68px;
+    top: 69px;
     z-index: 2;
     word-spacing: 1px;
 }
@@ -77,14 +77,19 @@
 .block-img{
     width: 100%;
     height: 280px;
+    top: 1px;
 }
 
 .block-text-unit,
 .block-text-unit-3{
     margin-top: 36px;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.block-text-unit-1{
+    width: 285px;
+    margin-top: 36px;
+    margin-left: 2px;
 }
 .block-text-unit{
     width: 265px;
@@ -112,11 +117,19 @@
     margin-left: 0;
 }
 
+.block-text-content-1,
 .block-text-content{
     font-family: 'Gotham-Book', serif;
     font-size: 15px;
     color: rgb(34, 34, 34);
     text-align: center;
+}
+.block-text-content{
+    font-size: 15px;
+}
+.block-text-content-1{
+    font-size: 14px;
+    letter-spacing: -0.7px;
 }
 
 .block-multiline-text {
@@ -126,8 +139,15 @@
     line-height: 1.6;
 }
 
+.block-multiline-text-1 {
+    margin-top: 16px;
+}
+.block-multiline-text-1 p {
+    line-height: 1.705;
+}
+
 .block-content-indent-1{
-    margin-left: -4px;
+    margin-left: -24px;
 }
 .block-content-indent-2{
     margin-left: -3px;
