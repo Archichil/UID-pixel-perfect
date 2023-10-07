@@ -1,0 +1,84 @@
+.blog-area {
+    position: relative;
+    background: rgb(255, 255, 255);
+    height: 1017px;
+}
+
+.block-header {
+    position: relative;
+    height: 249px;
+    width: 50%;
+    margin-top: 87px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.block-center {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 185px;
+}
+
+.blog-background-letter {
+    position: absolute;
+    font-family: 'Roboto-BoldCondensed', serif;
+    font-size: 247px;
+    color: rgb(225, 225, 225);
+    top: -54px;
+    z-index: 1;
+}
+
+.block-front-title {
+    position: absolute;
+    white-space: pre;
+    font-family: 'Gotham-Medium', serif;
+    font-size: 37px;
+    color: rgb(34, 34, 34);
+    left: -44px;
+    top: 68px;
+    z-index: 2;
+    word-spacing: 1px;
+}
+
+.block-front-content {
+    font-family: 'Gotham-Book', serif;
+    font-size: 30px;
+    margin-top: auto;
+    margin-left: 9px;
+}
+
+.block-blog {
+    margin-top: 74px;
+    width: 1232px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.block-column-1,
+.block-column-2{
+    width: 270px;
+}
+
+.block-column-1{
+    margin-left: 31px;
+}
+.block-column-2{
+    margin-left: 29px;
+    width: 270px;
+}
+
+.block-img{
+    width: 100%;
+    height: 280px;
+}
+
+.block-img-indent{
+    background-position-y: -355px;
+}
