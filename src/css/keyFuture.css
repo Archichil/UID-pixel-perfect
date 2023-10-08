@@ -1,0 +1,69 @@
+.kf-main-div {
+    height: 848px;
+    background-image: url('/src/img/key_future_bg.jpg');
+    background-position: center top -26px;
+    display: flex;
+    align-items: center;
+}
+
+.kf-info-div {
+    margin-top: -22px;
+    margin-left: 225px;
+}
+
+.kf-title-p,
+.kf-info-p,
+.kf-future-p {
+    color: white;
+}
+
+.kf-title-p {
+    margin-left: 3px;
+    font-size: 25px;
+    font-family: Gotham-Medium, serif;
+}
+
+.kf-multilineText-div {
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.kf-info-p {
+    font-size: 15px;
+    font-family: Gotham-Book, serif;
+    line-height: 1.6;
+}
+
+.kf-future1-div,
+.kf-future2-div,
+.kf-future3-div{
+    height: 28px;
+    background-color: rgb(17, 116, 158);
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+.kf-future1-div {
+    width: 352px;
+    margin-top: 64px;
+}
+
+.kf-future2-div {
+    width: 382px;
+    margin-top: 24px;
+}
+
+.kf-future3-div {
+    width: 410px;
+    margin-top: 24px;
+}
+
+.kf-future-p {
+    font-size: 15px;
+    font-family: Gotham-Medium, serif;
+}
+
+.kf-smartphone-img {
+    position: absolute;
+    left: 918px;
+}

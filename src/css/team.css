@@ -1,0 +1,156 @@
+.t-main-div {
+    height: 814px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.t-header-div {
+    height: 209px;
+    margin-bottom: 67px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.t-title-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-backgroundLetter-p {
+    position: absolute;
+    font-family: 'Roboto-BoldCondensed', serif;
+    font-size: 247px;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: rgb(215, 215, 215);
+    z-index: 1;
+}
+
+.t-title-p {
+    white-space: pre;
+    word-spacing: 1px;
+    font-family: 'Gotham-Medium', serif;
+    font-size: 37px;
+    margin-left: 10px;
+    color: rgb(34, 34, 34);
+    z-index: 2;
+}
+
+.t-slogan-p {
+    font-family: 'Gotham-Book', serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.t-team-div {
+    height: 538px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-member-div {
+    height: 100%;
+    width: 270px;
+    position: relative;
+}
+
+.t-member-img {
+    z-index: 1;
+}
+
+.t-memberInfo-div1,
+.t-memberInfo-div2,
+.t-memberInfo-div3,
+.t-memberInfo-div4{
+    background-color: white;
+    width: 216px;
+    height: 85px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 6px;
+    z-index: 2;
+}
+
+.t-memberInfo-div1 {
+    left: 27px;
+    top: 366px;
+}
+
+.t-memberInfo-div2 {
+    left: 30px;
+    top: 366px;
+}
+
+.t-memberInfo-div3 {
+    left: 33px;
+    top: 366px;
+}
+
+.t-memberInfo-div4 {
+    left: 34px;
+    top: 366px;
+}
+
+.t-name-p1,
+.t-name-p2,
+.t-name-p3,
+.t-name-p4 {
+    font-family: Gotham-Medium, serif;
+    font-size: 20px;
+    color: rgb(17, 116, 158);
+}
+
+.t-job-p1,
+.t-job-p2,
+.t-job-p3,
+.t-job-p4 {
+    font-family: Gotham-Medium, serif;
+    font-size: 15px;
+    color: black;
+}
+
+.t-name-p1 {
+    margin-left: 4px;
+}
+
+.t-job-p1 {
+    margin-left: 3px;
+}
+
+.t-name-p2 {
+    margin-left: 11px;
+}
+
+.t-job-p2 {
+    margin-left: 2px;
+}
+
+.t-name-p3 {
+    margin-left: 6px;
+}
+
+.t-job-p3 {
+    margin-left: 4px;
+}
+
+.t-name-p4 {
+    margin-left: 13px;
+}
+
+.t-job-p4 {
+    margin-left: 8px;
+}
+
