@@ -1,6 +1,6 @@
 .kf-main-div {
     height: 848px;
-    background-image: url('/src/img/key_future_bg.jpg');
+    background-image: url('./../img/key_future_bg.jpg');
     background-position: center top -26px;
     display: flex;
     align-items: center;
