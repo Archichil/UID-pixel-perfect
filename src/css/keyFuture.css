@@ -12,8 +12,8 @@
 }
 
 .kf-title-p,
-.kf-info-p,
-.kf-future-p {
+.kf-future-p,
+.kf-multilineText-div p{
     color: white;
 }
 
@@ -28,7 +28,7 @@
     margin-left: 2px;
 }
 
-.kf-info-p {
+.kf-multilineText-div p{
     font-size: 15px;
     font-family: Gotham-Book, serif;
     line-height: 1.6;

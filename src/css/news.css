@@ -42,11 +42,13 @@
     margin-top: 104px;
 }
 
-.news-text-white {
+.news-text-white,
+.news-multiline-text-1 p{
     color: rgb(255, 255, 255);
 }
 
-.news-text-black {
+.news-text-black,
+.news-multiline-text-2 p{
     color: rgb(34, 34, 34);
 }
 
@@ -76,12 +78,6 @@
     white-space: pre;
     font-family: 'Gotham-Book', serif;
     font-size: 15px;
-}
-.news-multiline-text-1 p{
-    color: rgb(255, 255, 255);
-}
-.news-multiline-text-2 p{
-    color: rgb(34, 34, 34);
 }
 
 .news-multiline-text-next-paragraph-1 {
