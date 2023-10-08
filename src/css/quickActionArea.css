@@ -1,4 +1,42 @@
+.fa-pencil-square-o {
+    font-size: 88px;
+}
+.fa-pencil-square-o-indent{
+    margin-top: 10px;
+}
+
 .quick-action-area{
     height: 355px;
     background-color: rgb(17, 116, 158);
+    display: flex;
+    align-items: center;
+}
+
+.quick-action-area-center{
+    margin: 0 auto;
+    height: 160px;
+    width: 1168px;
+    display: flex;
+}
+
+.quick-action-area-ceil-1 {
+    width: 615px;
+    height: 100%;
+    display: flex;
+}
+.quick-action-area-ceil-2 {
+    height: 100%;
+    width: calc(1168px - 615px);
+    display: flex;
+}
+
+.quick-action-area-multiline-text {
+    margin-top: 9px;
+    margin-left: 15px;
+}
+.quick-action-area-multiline-text p {
+    line-height: 1.62;
+    font-family: 'Gotham-Book', serif;
+    font-size: 15px;
+    color: rgb(243, 243, 243);
 }

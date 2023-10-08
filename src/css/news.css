@@ -50,18 +50,15 @@
     color: rgb(34, 34, 34);
 }
 
-.news-text-content,
 .news-text-date,
 .news-text-title {
     white-space: pre;
 }
-
 .news-text-date {
     font-family: 'Gotham-Book', serif;
     font-size: 13px;
     margin-left: 4px;
 }
-
 .news-text-title {
     font-family: 'Gotham-Medium', serif;
     font-size: 25px;
@@ -69,17 +66,24 @@
     margin-left: 2px;
 }
 
-.news-text-content {
+.news-multiline-text-1,
+.news-multiline-text-2{
+    margin-top: 31px;
+}
+.news-multiline-text-1 p,
+.news-multiline-text-2 p{
+    line-height: 1.62;
+    white-space: pre;
     font-family: 'Gotham-Book', serif;
     font-size: 15px;
 }
+.news-multiline-text-1 p{
+    color: rgb(255, 255, 255);
+}
+.news-multiline-text-2 p{
+    color: rgb(34, 34, 34);
+}
 
-.news-multiline-text {
-    margin-top: 31px;
-}
-.news-multiline-text p {
-    line-height: 1.62;
-}
 .news-multiline-text-next-paragraph-1 {
     margin-top: 23px;
 }
