@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/quickActionArea.css">
     <link rel="stylesheet" href="css/keyFuture.css">
     <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/awesomeAgency.css">
     <title>Creatives</title>
 </head>
 <body>
@@ -17,20 +21,36 @@
         <header>
             <nav>
                 <div class="main-container">
-                    <div class="logo">
-                        <div class="blue-square"></div>
-                        <div class="white-square"></div>
-                        <p class="logo-text">CS</p>
+                    <div class="logo-main">
+                        <div class="logo">
+                            <div class="blue-square">
+                                <p class="logo-text">CS</p>
+                            </div>
+                            <div class="white-square"></div>
+
+                        </div>
                     </div>
 
                     <div class="links">
                         <ul class="nav-menu">
-                            <li>Home</li>
-                            <li>Pages</li>
-                            <li>Features</li>
-                            <li>Extensions</li>
-                            <li>Tutorials</li>
-                            <li>Contact us</li>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Extensions</a>
+                            </li>
+                            <li>
+                                <a href="#">Tutorials</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
                         </ul>
 
                         <ul class="social-icons">
@@ -59,42 +79,92 @@
                     </div>
                 </div>
             </nav>
+            <div class="header-container">
+                <div class="header-content">
+                    <h1 class="header-h1">Creatives</h1>
+                    <p class="header-text">Power by psdfreebies.com</p>    <!-- TODO Обернуть в классы (придумать как) -->
 
-            <div class="header-content">
-                <h1>Creatives</h1>
-                <p class="header-text">Power by psdfreebies.com</p>    <!-- TODO Обернуть в классы (придумать как) -->
+                    <div class="scroller">
+                        <div class="scroller-text">
+                            <p>Scroll down</p>
+                        </div>
 
-                <div class="scroller">
-                    <div class="scroller-text">
-                        <p>Scroll down</p>
-                    </div>
-
-                    <div class="scroller-icon">
-                        <div class="circle"></div>
-                        <div class="arrow">
-                            <i class="fa fa-angle-down"></i>
+                        <div class="scroller-icon">
+                            <div class="circle">
+                                <div class="arrow">
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </header>
 
-
-        <!-- Разбил на блоки -->
         <section class="about-agency">
-            <span id="W">W</span>
-            <h2 id="awesome-agency">We are awesome agency</h2>
-            <div class="feature" id="1">
-                <div class="awesome-circle">
-                    <i class="fa fa-pencil-square-o"></i>
-                </div>
-                <h2 class="feature">Feature one</h2>
-<!--                <p class="text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Donec id elit non mi porta gravida at eget metus.</p>-->
+            <div class="block-agency-center">
+<!--                <p class="blog-background-letter">W</p>-->
+<!--                <p class="block-front-title">We are an awesome agency</p>-->
+                <span id="W">W</span>
+                <h2 id="awesome-agency">We are an awesome agency</h2>
             </div>
-            <div class="feature" id="2"></div>
-            <div class="feature" id="3"></div>
-            <div class="feature" id="4"></div>
+            <div class="agency-block">
+                <div class="block-1">
+                    <div class="background-circle">
+                        <i class="fa fa-pencil-square-o"></i>
+                    </div>
+                    <div class="agency-column-text">
+                        <p class="feature-text">Feature one</p>
+                    </div>
+                    <div class="multiline-agency-feature-text">
+                        <p>Aenean lacinia bibendum nulla sed</p>
+                        <p>consectetur. Vivamus sagittis lacus</p>
+                        <p>vel augue laoreet rutrum faucibus</p>
+                    </div>
+                </div>
+
+                <div class="block-2">
+                    <div class="background-circle">
+                        <i class="fa fa-pencil-square-o"></i>
+                    </div>
+                    <div class="agency-column-text">
+                        <p class="feature-text">Feature two</p>
+                    </div>
+                    <div class="multiline-agency-feature-text">
+                        <p>Aenean lacinia bibendum nulla sed</p>
+                        <p>consectetur. Vivamus sagittis lacus</p>
+                        <p>vel augue laoreet rutrum faucibus</p>
+                    </div>
+                </div>
+
+                <div class="block-3">
+                    <div class="background-circle">
+                        <i class="fa fa-glass"></i>     <!-- TODO FIND LUPA-->
+                    </div>
+                    <div class="agency-column-text">
+                        <p class="feature-text">Feature three</p>
+                    </div>
+                    <div class="multiline-agency-feature-text">
+                        <p>Aenean lacinia bibendum nulla sed</p>
+                        <p>consectetur. Vivamus sagittis lacus</p>
+                        <p>vel augue laoreet rutrum faucibus</p>
+                    </div>
+                </div>
+
+                <div class="block-4">
+                    <div class="background-circle">
+                        <i class="fa fa-comment-o"></i>
+                    </div>
+                    <div class="agency-column-text">
+                        <p class="feature-text">Feature four</p>
+                    </div>
+                    <div class="multiline-agency-feature-text">
+                        <p>Aenean lacinia bibendum nulla sed</p>
+                        <p>consectetur. Vivamus sagittis lacus</p>
+                        <p>vel augue laoreet rutrum faucibus</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="news-area">
@@ -335,7 +405,7 @@
 
         </section>
         <section>
-            <div >
+            <div>
                 <iframe allowfullscreen=""
                         height="333" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.089470741396!2d27.5946468282626!3d53.912385999310814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaf1d38974b%3A0x3d097c7a85e0db13!2z0JHQk9Cj0JjQoCwg0LrQvtGA0L_Rg9GBIOKEliA0!5e0!3m2!1sru!2sru!4v1696870379667!5m2!1sru!2sru"
