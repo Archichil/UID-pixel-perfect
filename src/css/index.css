@@ -239,6 +239,81 @@ span#W{
     align-items: center;
 }
 
+#block-header-contact{
+    position: relative;
+    top:100px;
+    height: 297px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form-contact-area{
+    position: relative;
+    top:160px;
+    height: 237px;
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-small{
+    height: 46px;
+    width: 347px;
+    margin-bottom: 40px;
+    margin-right:25px;
+    padding-left: 21px;
+    font-family: 'Gotham-Book', Arial, serif;
+    font-size: 15px;
+    color: white;
+    border-color:white;
+    border-width: 1px;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+#form_big{
+    height: 132px;
+    width: 1145px;
+    padding-left: 21px;
+    padding-top: 16px;
+    font-family: 'Gotham-Book', serif;
+    font-size: 15px;
+    color: white;
+    border-color:white;
+    border-width: 1px;
+    background-color: rgb(0, 0, 0, 0);
+    margin-bottom: 46px;
+}
+
+#button-submit{
+    position: relative;
+    box-sizing: content-box;
+    border-width: 0;
+    height: 44px;
+    width: 87px;
+    background-color: #11749e;
+    font-family: 'Gotham-Medium', serif;
+    font-size: 24px;
+    padding: 20px 70px;
+    color:white;
+    text-transform: uppercase;
+    left:514px;
+}
+
+#button-submit:active {
+    background-color: #015c82;
+    color: aliceblue;
+}
+
+#contact-area{
+    position: relative;
+    width: 1627px;
+    height: 922px;
+    background-image: url('../img/contact_area_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .footer{
     color: white;
 }
