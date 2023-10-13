@@ -45,7 +45,7 @@ footer{
 
 #block-header-contact{
     position: relative;
-    top: 100px;
+    top: 88px;
     height: 297px;
     margin-left: auto;
     margin-right: auto;
@@ -53,19 +53,20 @@ footer{
 
 #form-contact-area{
     position: relative;
-    top:160px;
+    top:106px;
     height: 237px;
     width: 1168px;
-    margin-left: auto;
+    left: 218px;
     margin-right: auto;
 }
 
 .form-small{
-    height: 46px;
+    height: 43px;
     width: 347px;
     margin-bottom: 40px;
     margin-right:25px;
     padding-left: 21px;
+    padding-top: 3px;
     font-family: 'Gotham-Book', Arial, serif;
     font-size: 15px;
     color: white;
@@ -85,7 +86,7 @@ footer{
     border-color:white;
     border-width: 1px;
     background-color: rgb(0, 0, 0, 0);
-    margin-bottom: 46px;
+    margin-bottom: 42px;
 }
 
 #button-submit{
@@ -97,10 +98,10 @@ footer{
     background-color: #11749e;
     font-family: 'Gotham-Medium', serif;
     font-size: 24px;
-    padding: 20px 70px;
+    padding: 5px 78px 15px 62px;;
     color:white;
     text-transform: uppercase;
-    left:487px;
+    left:515px;
 }
 
 #button-submit:active {
@@ -111,10 +112,10 @@ footer{
 #contact-area{
     position: relative;
     width: 1600px;
-    height: 922px;
+    height: 852px;
     background-image: url('../img/contact_area_bg.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
