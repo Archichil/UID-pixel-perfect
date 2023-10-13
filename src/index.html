@@ -396,7 +396,11 @@
                         let phone = $('input[name="phone"]').val();
                         let message = $('textarea[name="message"]').val();
                         if (name !== '' && email !== '' && phone !== '' && message !== '') {
-                            $('#button-submit').text('SUBMITTED');
+                            $('#button-submit').text('SENT');
+                            $('input[name="name"]').val('');
+                            $('input[name="email"]').val('');
+                            $('input[name="phone"]').val('');
+                            $('textarea[name="message"]').val('');
                         }
                     });
 
@@ -410,7 +414,7 @@
                         height="333" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.089470741396!2d27.5946468282626!3d53.912385999310814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfaf1d38974b%3A0x3d097c7a85e0db13!2z0JHQk9Cj0JjQoCwg0LrQvtGA0L_Rg9GBIOKEliA0!5e0!3m2!1sru!2sru!4v1696870379667!5m2!1sru!2sru"
                         style="border:0;"
-                        width="1627"></iframe>
+                        width="1600"></iframe>
             </div>
 
         </section>

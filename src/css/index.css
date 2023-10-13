@@ -100,7 +100,7 @@ footer{
     padding: 20px 70px;
     color:white;
     text-transform: uppercase;
-    left:514px;
+    left:487px;
 }
 
 #button-submit:active {
@@ -110,7 +110,7 @@ footer{
 
 #contact-area{
     position: relative;
-    width: 1627px;
+    width: 1600px;
     height: 922px;
     background-image: url('../img/contact_area_bg.jpg');
     background-size: cover;
