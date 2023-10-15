@@ -14,7 +14,6 @@ nav{
 
 .social-icons{
     width: 141px;
-    /*background-color: #222222;*/
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -26,6 +25,45 @@ nav{
     text-decoration: none;
     color: white;
 }
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+
+nav a.link::after {
+    content: "";
+    display: block;
+    width: 150%;
+    height: 7px;
+    background: #11749e;
+    position: absolute;
+    bottom: -39px;
+    left: -15px;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
 
 .logo-text{
     margin-left: 15px;
