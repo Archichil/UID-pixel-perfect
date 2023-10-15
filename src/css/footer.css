@@ -1,0 +1,25 @@
+.footer-bee{
+    height: 26px;
+    width: auto;
+}
+
+.footer-left{
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 0.29px;
+    width: 501px;
+    justify-content: right;
+    margin-top: -5px;
+}
+
+.footer-right{
+    font-size: 13px;
+    width: 414px;
+    margin-top: -16px;
+}
+
+.footer-left, .footer-right{
+    font-family: Roboto, serif;
+    color: white;
+}
+

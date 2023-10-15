@@ -28,21 +28,6 @@ body{
     background-color: #11749E;
 }
 
-.footer{
-    font-family: Roboto, serif;
-    font-size: 13pt;
-    letter-spacing: normal;
-    text-transform: none;
-
-}
-footer{
-    height: 114px;
-    width: 100%;
-    align-content: center;
-    background-color: #222222;
-}
-
-
 #block-header-contact{
     position: relative;
     top: 88px;
@@ -119,6 +104,11 @@ footer{
     background-repeat: no-repeat;
 }
 
-.footer{
-    color: white;
+footer{
+    display: flex;
+    height: 114px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
 }
