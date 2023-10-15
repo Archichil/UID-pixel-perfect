@@ -3,9 +3,7 @@ nav{
     border-bottom: 1px solid #ffffff;
     height: 116px;
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
-
 }
 
 .logo {
@@ -25,9 +23,6 @@ nav{
     text-decoration: none;
     color: white;
 }
-
-
-
 
 nav ul {
     list-style: none;
@@ -58,12 +53,6 @@ nav a.link::after {
 nav a:hover::after {
     transform: scaleX(1);
 }
-
-
-
-
-
-
 
 .logo-text{
     margin-left: 15px;
