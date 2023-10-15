@@ -10,16 +10,7 @@ nav{
 
 .logo {
     display: flex;
-    /*align-items: center; !* Выровнять элементы по вертикали по центру *!*/
 }
-
-/*nav .social-icons{*/
-/*    display: flex;*/
-/*    list-style-type: none;*/
-/*    width: 144px;*/
-/*    justify-content: space-between;*/
-/*    font-size: 20px;*/
-/*}*/
 
 .social-icons{
     width: 141px;
@@ -28,6 +19,7 @@ nav{
     list-style-type: none;
     justify-content: space-between;
     font-size: 20px;
+    margin-right: 5px;
 }
 
 .nav-menu a{
@@ -51,15 +43,6 @@ nav{
     display: flex;
 }
 
-/*div .blue-square{*/
-/*    !*position: absolute;*!*/
-/*    !*left: 214px;*!*/
-/*    !*top: 23px;*!*/
-/*    width: 67px;*/
-/*    height: 67px;*/
-/*    background-color: #11749e;*/
-/*    z-index: 1;*/
-/*}*/
 
 .blue-square{
     position: absolute;
@@ -71,19 +54,7 @@ nav{
     z-index: 1;
 }
 
-/*div .white-square{*/
-/*    position: absolute;*/
-/*    left: 226px;*/
-/*    top: 30px;*/
-/*    width: 67px;*/
-/*    height: 67px;*/
-/*    background-color: white;*/
-/*}*/
-
 .white-square{
-    /*position: absolute;*/
-    /*left: 226px;*/
-    /*top: 30px;*/
     margin-top: -4px;
     margin-left: 20px;
     width: 68px;
@@ -106,23 +77,13 @@ header .nav-menu{
     width: 860px;
     display: flex;
     justify-content: space-between;
-    /*background-color: aquamarine;*/
     height: 30px;
 }
 
 .main-container{
-    /*display: flex;*/
-
-    /*width: 100%;*/
-    /*max-width: 1600px;*/
-    /*margin: 0 auto;*/
-    /**position: relative;*!*/
-    /*!*padding-left: 15px;*!*/
-    /*!*padding-right: 15px;*!/*/
     margin-left: auto;
     margin-right: auto;
     width: 1190px;
-    /*background-color: red;*/
     display: flex;
     justify-content: space-between;
 }

@@ -9,6 +9,10 @@ header{
     background-image: url("../img/about_agency_bg.jpg");
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 i{
     color: white;
 }
