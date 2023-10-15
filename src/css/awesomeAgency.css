@@ -1,8 +1,6 @@
 .block-agency-center {
-    /*position: relative;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*width: 100%;*/
+    width: 1600px;
+    height: 343px;
     text-align: center;
 }
 
@@ -16,15 +14,12 @@ h2#awesome-agency{
     margin-left: 7px;
     letter-spacing: 0.5px;
     font-size: 37px;
-    /*font-weight: 200;*/
 }
 
 span#W{
-
     position: absolute;
     margin-top: 39px;
     margin-left: -90px;
-    /*text-align: center;*/
     font-family: Roboto-BoldCondensed, serif;
     font-size: 247px;
     opacity: 18%;
@@ -32,56 +27,51 @@ span#W{
 
 }
 
+.agency-block{
+    display: flex;
+    justify-content: space-around;
+    height: 275px;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agency-circle{
+    height: 153px;
+}
+
 .background-circle{
-    /*margin-left: 765px;  !* */
-    /*margin-top: 16px;*/
-    /*align-content: center;*/
-    margin-top: 7px;
+    display: flex;
     width: 132px;
     height: 132px;
     border-radius: 50%;
     background-color: #2e85aa;
-    /*align-items: center;*/
+    align-items: center;
     text-align: center;
-    /*align-content: center;*/
-    /*justify-content: center;*/
-    /*justify-items: center;*/
+    justify-content: center;
 }
 
 .background-circle i{
     font-size: 43px;
-    margin-top: 48px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 9px;
+}
+
+.block-1 i, .block-2 i, .block-3 i{
     margin-left: 10px;
 }
-.about-agency{
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+
+.block-4 i{
+    margin-top: -3px;
 }
 
 .block-1, .block-2, .block-3, .block-4{
-    width: 300px;
-    /*align-content: center;*/
-    /*justify-content: center;*/
-}
-
-.agency-block{
     display: flex;
-    position: relative;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    height: 895px;
-    width: 1400px;
-    text-align: center;
-}
-
-.block-2{
-    /*margin-right: 35px;*/
-}
-
-.background-circle{
-    margin-top: 23px;
-    margin-left: 85px;
 }
 
 .multiline-agency-feature-text{
@@ -89,32 +79,35 @@ span#W{
     font-family: 'Gotham-Book', Arial, serif;
     font-size: 15px;
     color: white;
+    line-height: 1.6;
 }
 
 .feature-text{
-    margin-top: 18px;
-    margin-left: 2px;
-    font-size: 18px;
+    height: 47px;
+    font-size: 17px;
     font-family: Gotham-Medium, serif;
     text-transform: uppercase;
     color: white;
+    letter-spacing: 0.6px;
+}
+
+.block-1 .multiline-agency-feature-text, .block-3 .multiline-agency-feature-text, .block-4 .multiline-agency-feature-text{
+    margin-top: -2px;
+}
+
+.block-1 .feature-text{
+    margin-left: 5px;
 }
 
 .block-2 .feature-text{
-    margin-left: 14px;
+    margin-left: 13px;
+    margin-top: -1px;
 }
 
-.block-3 .feature-text{
-    margin-bottom: 2px;
-    margin-right: 10px;
+.block-3 .feature-text, .block-4 .feature-text{
+    margin-top: -1px;
+    margin-left: -9px;
 }
 
-.block-4 .feature-text{
-    margin-bottom: 3px;
-    margin-right: 10px;
-}
 
-.multiline-agency-feature-text p{
-    /*margin-top: 10px;*/
-}
 
