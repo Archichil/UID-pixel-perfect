@@ -24,7 +24,7 @@ nav{
 }
 
 .fa-facebook:hover, .fa-linkedin:hover, .fa-skype:hover, .fa-twitter:hover{
-    color: black;
+    color: #11749e;
     transform: scale(1.2);
 }
 
