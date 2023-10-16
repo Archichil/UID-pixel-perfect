@@ -48,7 +48,7 @@
 .t-slogan-p {
     font-family: 'Gotham-Book', serif;
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .t-team-div {
@@ -76,6 +76,7 @@
     width: 216px;
     height: 85px;
     position: absolute;
+    bottom: 87px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,22 +87,18 @@
 
 .t-memberInfo-div1 {
     left: 27px;
-    top: 366px;
 }
 
 .t-memberInfo-div2 {
     left: 30px;
-    top: 366px;
 }
 
 .t-memberInfo-div3 {
     left: 33px;
-    top: 366px;
 }
 
 .t-memberInfo-div4 {
     left: 34px;
-    top: 366px;
 }
 
 .t-name-p1,

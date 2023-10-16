@@ -4,11 +4,13 @@
     background-position: center top -26px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    column-gap: 222px;
 }
 
 .kf-info-div {
-    margin-top: -22px;
-    margin-left: 225px;
+    margin-top: -23px;
+    margin-left: -67px;
 }
 
 .kf-title-p,
@@ -64,6 +66,5 @@
 }
 
 .kf-smartphone-img {
-    position: absolute;
-    left: 918px;
+
 }
