@@ -41,6 +41,8 @@ body{
 }
 
 #form-contact-area{
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     top:106px;
     height: 237px;
