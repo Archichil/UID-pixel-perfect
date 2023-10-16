@@ -19,6 +19,15 @@ nav{
     margin-right: 5px;
 }
 
+.fa-facebook, .fa-linkedin, .fa-skype, .fa-twitter{
+    transition: color 0.3s, transform 0.3s;
+}
+
+.fa-facebook:hover, .fa-linkedin:hover, .fa-skype:hover, .fa-twitter:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
 .nav-menu a{
     text-decoration: none;
     color: white;
@@ -39,12 +48,11 @@ nav a {
 nav a.link::after {
     content: "";
     display: block;
-    width: 150%;
+    width: 100%;
     height: 7px;
     background: #11749e;
     position: absolute;
     bottom: -39px;
-    left: -15px;
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s;
@@ -69,7 +77,6 @@ nav a:hover::after {
     height: 50px;
     display: flex;
 }
-
 
 .blue-square{
     position: absolute;
