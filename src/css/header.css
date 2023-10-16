@@ -47,6 +47,11 @@
 
 .scroller-icon{
     margin-left: -6px;
+    transition: transform 0.3s;
+}
+
+.scroller-icon:hover{
+    transform: scale(1.3);
 }
 
 .scroller-text{
