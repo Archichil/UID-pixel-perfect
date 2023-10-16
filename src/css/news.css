@@ -27,6 +27,8 @@
 
 .news-img-1 {
     width: 100%;
+    overflow: hidden;
+    height: auto;
 }
 .news-img-2 {
     width: 100%;
