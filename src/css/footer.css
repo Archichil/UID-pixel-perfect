@@ -9,13 +9,13 @@
     letter-spacing: 0.29px;
     width: 501px;
     justify-content: right;
-    margin-top: -5px;
+    margin-top: 6px;
 }
 
 .footer-right{
     font-size: 13px;
     width: 414px;
-    margin-top: -16px;
+    margin-top: -3px;
 }
 
 .footer-left, .footer-right{

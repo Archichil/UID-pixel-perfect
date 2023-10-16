@@ -114,6 +114,10 @@ button:hover {
     background-repeat: no-repeat;
 }
 
+#map{
+    height: 331px;
+}
+
 footer{
     display: flex;
     height: 114px;
